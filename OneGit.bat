@@ -17,7 +17,7 @@ if not exist "%installDir%\%scriptName%" (
         pause
         exit /b
     )
-    reg add "HKCU\Environment" /v PATH /t REG_EXPAND_SZ /f /d "%installDir%;%PATH%"
+    setx PATH "%PATH%;%installDir%"
     if %errorlevel% neq 0 (
         pause
         exit /b
