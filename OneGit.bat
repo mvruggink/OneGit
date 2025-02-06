@@ -41,8 +41,8 @@ exit /b
 :HELP
 echo Available commands:
 echo.
-echo --enable    : Start the git commit and push loop in a new command prompt.
-echo --disable   : Stop the git commit and push loop.
+echo --enable    : Enables OneGit
+echo --disable   : Disables OneGit
 echo --help      : Show this help message.
 echo.
 pause
