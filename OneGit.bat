@@ -7,7 +7,6 @@ setlocal
 
 set "installDir=%APPDATA%\OneGit"
 set "scriptName=OneGit.bat"
-set "pidFile=%APPDATA%\OneGit\pid.txt"
 
 if not exist "%installDir%\%scriptName%" (
     if not exist "%installDir%" (
