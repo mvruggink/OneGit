@@ -154,6 +154,7 @@ goto LOOP
 
 :LOOP
 set timestamp=%date% %time%
+git pull --rebase origin main
 git add -A
 git commit -m "Update: %timestamp%"
 git push
